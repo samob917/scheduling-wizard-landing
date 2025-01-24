@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/scheduling-wizard/static/css/main.f855e6bc.css",
-    "main.js": "/scheduling-wizard/static/js/main.518ff900.js",
-    "static/js/488.81fdf741.chunk.js": "/scheduling-wizard/static/js/488.81fdf741.chunk.js",
-    "static/media/logo.svg": "/scheduling-wizard/static/media/logo.737c9e251ff516bdcc53d27b254472f8.svg",
-    "static/media/logo.png": "/scheduling-wizard/static/media/logo.b8db321b920d0fdea7b9.png",
-    "index.html": "/scheduling-wizard/index.html",
-    "main.f855e6bc.css.map": "/scheduling-wizard/static/css/main.f855e6bc.css.map",
-    "main.518ff900.js.map": "/scheduling-wizard/static/js/main.518ff900.js.map",
-    "488.81fdf741.chunk.js.map": "/scheduling-wizard/static/js/488.81fdf741.chunk.js.map"
+    "main.css": "/scheduling-wizard-landing/static/css/main.f855e6bc.css",
+    "main.js": "/scheduling-wizard-landing/static/js/main.09b2d062.js",
+    "static/js/453.42d3b07f.chunk.js": "/scheduling-wizard-landing/static/js/453.42d3b07f.chunk.js",
+    "static/media/logo.png": "/scheduling-wizard-landing/static/media/logo.b8db321b920d0fdea7b9.png",
+    "index.html": "/scheduling-wizard-landing/index.html",
+    "main.f855e6bc.css.map": "/scheduling-wizard-landing/static/css/main.f855e6bc.css.map",
+    "main.09b2d062.js.map": "/scheduling-wizard-landing/static/js/main.09b2d062.js.map",
+    "453.42d3b07f.chunk.js.map": "/scheduling-wizard-landing/static/js/453.42d3b07f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.518ff900.js"
+    "static/js/main.09b2d062.js"
   ]
 }

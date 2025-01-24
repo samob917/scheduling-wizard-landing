@@ -20,7 +20,7 @@ function Navbar() {
           <Link to="/">
             <Box
               component="img"
-              src="/logo192.png"
+              src="/scheduling-wizard/logo192.png"
               alt="Scheduling Wizard Logo"
               sx={{
                 width: { xs: '32px', md: '0' },

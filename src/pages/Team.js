@@ -81,7 +81,7 @@ function Team() {
                 >
                   <Box
                     component="img"
-                    src={`/team/${member.name === 'Samuel Oberly' ? 'sam_photo.jpeg'
+                    src={`/scheduling-wizard/team/${member.name === 'Samuel Oberly' ? 'sam_photo.jpeg'
                       : member.name === 'Abdelrahman Hamimi' ? 'ab_photo.jpeg'
                       : member.name === 'Ashley Gijon' ? 'ashley_photo.png'
                       : 'zac_photo.jpeg'}`}
