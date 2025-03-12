@@ -71,7 +71,7 @@ function Contact() {
         <Box sx={{ mb: 3 }}>
           <Box
             component="img"
-            src="/scheduling-wizard/logo192.png"
+            src="/logo192.png"
             alt="Scheduling Wizard Logo"
             sx={{
               width: { xs: '100px', md: '150px' },

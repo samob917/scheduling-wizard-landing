@@ -1,4 +1,4 @@
-import { Container, Grid, Typography, Card, CardContent, CardMedia, Box, Collapse } from '@mui/material';
+import { Container, Grid, Typography, Card, CardContent, Box, Collapse } from '@mui/material';
 import { Email as EmailIcon, Phone as PhoneIcon } from '@mui/icons-material';
 import { useState } from 'react';
 
@@ -11,7 +11,7 @@ function Team() {
       role: 'Cofounder & CEO',
       education: 'Johns Hopkins University & University of Cambridge',
       details: 'BA Mathematics, Economics (2024)\nBS/MS Applied Math & Statistics (2024)',
-      experience: 'Minor League Baseball Scheduling,\nModeling & Analysis for DoD',
+      experience: 'Minor League Baseball Scheduling\nModeling & Analysis for DoD',
       email: 'samuel.oberly@schedulingwizard.com',
       phone: '(555) 123-4567'
     },
@@ -20,7 +20,7 @@ function Team() {
       role: 'Cofounder & CTO',
       education: 'Johns Hopkins University',
       details: 'BS/MS Computer Science (2024)\nBA Economics (2024)',
-      experience: 'Data Analyst at GEICO,\nSoftware Engineering, & Sports Analytics Research',
+      experience: 'Data Analyst at GEICO\nSoftware Engineering & Sports Analytics Research',
       email: 'abdelrahman.hamimi@schedulingwizard.com',
       phone: '(555) 234-5678'
     },
@@ -29,7 +29,7 @@ function Team() {
       role: 'Cofounder & COO',
       education: 'Columbia University & Providence College',
       details: 'BS Physics (2022)\nBS/MS Mechanical Engineering (2023)',
-      experience: 'D&D Weapons Analyst,\nNordson Builds Corporation Design Engineer,\nGoldman Sachs Engineering',
+      experience: 'D&D Weapons Analyst\nNordson Builds Corporation Design Engineer\nGoldman Sachs Engineering',
       email: 'ashley.gijon@schedulingwizard.com',
       phone: '(555) 345-6789'
     },
@@ -38,7 +38,7 @@ function Team() {
       role: 'Cofounder & CFO',
       education: 'Johns Hopkins University',
       details: 'BA Economics (2024)\nMinor in Computer Science (2024)',
-      experience: 'Operations Analyst at Amazon,\nNLP Research to Combat Vaccine Misinformation',
+      experience: 'Operations Analyst at Amazon\nNLP Research to Combat Vaccine Misinformation',
       email: 'zachary.dermody@schedulingwizard.com',
       phone: '(555) 456-7890'
     }
@@ -81,7 +81,7 @@ function Team() {
                 >
                   <Box
                     component="img"
-                    src={`/scheduling-wizard/team/${member.name === 'Samuel Oberly' ? 'sam_photo.jpeg'
+                    src={`/team/${member.name === 'Samuel Oberly' ? 'sam_photo.jpeg'
                       : member.name === 'Abdelrahman Hamimi' ? 'ab_photo.jpeg'
                       : member.name === 'Ashley Gijon' ? 'ashley_photo.png'
                       : 'zac_photo.jpeg'}`}
