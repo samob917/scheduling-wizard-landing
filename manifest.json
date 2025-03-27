@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SchedulingWiz",
+  "name": "SchedulingWiz - Easy Medical Scheduling",
   "icons": [
     {
       "src": "favicon.ico",
